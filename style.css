@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    display: block;
+    width: 20vw;
+    margin: 50px auto;
+}
+
+.cronometro{
+    display: block;
+    text-align: center;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.3;
+}
+
+input{
+    background: white;
+    border-radius: 6px;
+    height: 34px;
+    text-align: center;
+}
